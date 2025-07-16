@@ -99,7 +99,7 @@ body {
   -webkit-justify-content: center;
   -ms-justify-content: center;
   justify-content: center;
-  background-color: #000;
+  background-color: #FFFFF0;
   padding: 6em 4em 4em 4em; }
   body.is-preload *, body.is-preload *:before, body.is-preload *:after {
     -moz-animation: none !important;
@@ -229,7 +229,7 @@ body {
 
 /* Type */
 body, input, select, textarea {
-  color: rgba(255, 255, 255, 0.75);
+  color: #4A4A4A;
   font-family: "Roboto", sans-serif;
   font-size: 16pt;
   font-weight: 400;
@@ -256,12 +256,12 @@ a {
   -webkit-transition: border-bottom-color 0.2s ease, color 0.2s ease;
   -ms-transition: border-bottom-color 0.2s ease, color 0.2s ease;
   transition: border-bottom-color 0.2s ease, color 0.2s ease;
-  border-bottom: dotted 1px rgba(255, 255, 255, 0.25);
-  color: #1cb495;
+  border-bottom: dotted 1px rgba(74, 74, 74, 0.25); 
+  color: #FFA07A;
   text-decoration: none; }
   a:hover {
     border-bottom-color: transparent;
-    color: #1cb495 !important;
+    color: #FFA07A !important;
     text-decoration: none; }
 
 strong, b {
@@ -736,7 +736,7 @@ button,
   background-color: #1cb495;
   border-radius: 6px;
   border: 0;
-  color: #ffffff !important;
+  color: #4A4A4A !important;
   cursor: pointer;
   display: inline-block;
   font-weight: 700;
@@ -751,7 +751,7 @@ button,
   input[type="button"]:hover,
   button:hover,
   .button:hover {
-    background-color: #1fcaa7; }
+    background-color: #FFB08A; }
   input[type="submit"]:active,
   input[type="reset"]:active,
   input[type="button"]:active,
